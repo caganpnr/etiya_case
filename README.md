@@ -4,6 +4,9 @@
 
 - [Valorant-API](https://dash.valorant-api.com/)
 
+## Architecture
+- Clean Architecture
+
 ## Packages Used
 
 - Bloc
@@ -15,3 +18,4 @@
 - Dartz
 - Mocktail
 - BlocTest
+
