@@ -1,0 +1,91 @@
+name: etiya_case
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # state management
+  flutter_bloc: ^8.1.3
+
+  # networking
+  dio: ^5.2.1+1
+  dio_smart_retry: ^5.0.0
+  pretty_dio_logger: ^1.3.1
+
+  # routing
+  auto_route: ^7.7.0
+
+  # dependency injection
+  get_it: ^7.6.0
+
+  # json parsing
+  json_annotation: ^4.8.1
+
+  # utility
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+
+  # ui
+  lottie: ^2.4.0
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.3
+
+  # testing
+  mocktail: ^0.3.0
+  bloc_test: ^9.1.3
+
+  # app icons
+  flutter_native_splash: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # code generation
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  auto_route_generator: ^7.2.0
+
+  # linter
+  very_good_analysis: ^5.0.0+1
+
+flutter_launcher_icons: 
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#000000"
+  image: assets/icons/app_icon.png
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/fonts/
+    - assets/icons/
+
+
+
+  fonts:
+    - family: Valorant
+      fonts:
+        - asset: assets/fonts/valorant_font.ttf
